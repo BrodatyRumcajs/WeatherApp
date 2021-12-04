@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.weatherapp.datastore.model";
+option java_multiple_files = true;
+
+message SelectedCity {
+    string name = 1;
+    float latitude = 2;
+    float longitude = 3;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseText" parent="@android:style/TextAppearance"/>
+
+    <style name="BaseText.SingleLine">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="BaseText.SingleLine.Big">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="BaseText.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BaseText.Big">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="BaseText.Big.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BaseText.Large">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
